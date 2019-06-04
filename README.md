@@ -1,10 +1,11 @@
-** Tables
+# Staging Database
+## Tables
 
 
 - CUSTOMERS
 	- CUSTOMER_ID (text, primary key): key to the orders dataset. Each order has a unique customer_id.
 	- CUSTOMER_UNIQUE_ID (text): unique identifier of a customer
-	- CUSTOMER_ZIP_CODE_PREFIX (integer): first five digits of customer zip code
+	- rice(integer): first five digits of customer zip code
 	- CUSTOMER_CITY (text): customer city name
 	- CUSTOMER_STATE (text): customer state
 
@@ -76,7 +77,33 @@
 
 
 
+## Warehouse Database
 
+### Dimensions
+- PRODUCTS_D
+	- _ID3
+	
+- CUSTOMERS_D
+	- _ID1
+	- _ID4
+	- _ORDER_ID3
+	- PRICE
+	- TAXES
+	
+- GEOLOCATIONS_D
+	- _ID
+	- LAT
+	- LON
+	
+### Fact Table
+- GENERAL_F
+	- _ID1
+	- _ID2
+	- _ID3
+	- _ID4
+	- TOTAL_COST
+	- TIMESTAMP
+	
 
 
 
