@@ -79,31 +79,9 @@
 
 ## Warehouse Database
 
-### Dimensions
-- PRODUCTS_D
-	- _ID3
-	
-- CUSTOMERS_D
-	- _ID1
-	- _ID4
-	- _ORDER_ID3
-	- PRICE
-	- TAXES
-	
-- GEOLOCATIONS_D
-	- _ID
-	- LAT
-	- LON
-	
-### Fact Table
-- GENERAL_F
-	- _ID1
-	- _ID2
-	- _ID3
-	- _ID4
-	- TOTAL_COST
-	- TIMESTAMP
-	
+![]
+
+
 
 
 
