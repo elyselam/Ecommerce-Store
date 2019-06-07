@@ -79,7 +79,7 @@
 
 ## Warehouse Database
 
-![]
+![](https://github.com/elyselam/Ecommerce-Store/blob/master/Ecommerce.png)
 
 
 
