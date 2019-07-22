@@ -1,3 +1,4 @@
+![](olist.png)
 # Staging Database
 ## Tables
 
