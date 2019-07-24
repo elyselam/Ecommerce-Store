@@ -1,3 +1,5 @@
+Analysis: https://nbviewer.jupyter.org/github/elyselam/Ecommerce-Store/blob/master/OSI.ipynb
+
 ![](olist.png)
 # Staging Database
 ## Tables
